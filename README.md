@@ -10,8 +10,8 @@ Would you like some coding help? Here's what you do:
 5. Let us know how it goes!
 
 # hack days in progress...
-| Contact | Short Description of Task | Next Hack Day scheduled for ... |
-|---------|---------------------------|---------------------------------|
-| Bonnie Gordon | Editing the Digital Media Log | December 6 2017 |
+| Contact | What are we working on? | Next Hack Day scheduled for ... |
+|---------|-------------------------|---------------------------------|
+| Bonnie Gordon | [Editing the Digital Media Log](DigitalMediaLog_README.md) | December 6 2017 |
 
 
