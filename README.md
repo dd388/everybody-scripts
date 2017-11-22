@@ -11,6 +11,7 @@ Would you like some coding help? Here's what you do:
 
 # hack days in progress...
 | Contact | Short Description of Task | Next Hack Day scheduled for ... |
+|---------|---------------------------|---------------------------------|
 | Bonnie Gordon | Editing the Digital Media Log | December 6 2017 |
 
 
