@@ -12,6 +12,7 @@ To gain experience writing a simple script that checks a set of files for compli
 
 
 *General idea*
+
 Script input: Directory, list of rules
 
 Script output: Pass or Fail
