@@ -12,6 +12,7 @@ Would you like some coding help? Here's what you do:
 # hack days in progress...
 | Contact | What are we working on? | Next Hack Day scheduled for ... |
 |---------|-------------------------|---------------------------------|
-| Bonnie Gordon | [Editing the Digital Media Log](DigitalMediaLog_README.md) | December 6 2017 |
+| Bonnie Gordon | [Editing the Digital Media Log](DigitalMediaLog_README.md) | --- |
+| Shira Peltzman | [Collaborative Coding!](EverybodyScripts2018.md) | February? |
 
 
