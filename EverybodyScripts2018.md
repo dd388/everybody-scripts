@@ -12,3 +12,6 @@ To gain experience writing a simple script that checks a set of files for compli
 
 
 
+
+*One possible example*
+* All file ingests must be named after a collection (some pattern of letters and numbers), and must include a subdirectory that is named Documentation. Script ideally would fail if both of these conditions are not met for a target directory.
