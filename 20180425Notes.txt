@@ -1,0 +1,48 @@
+base version, stuff we agree is relatively straightforward
+
+collaborative version: (interactive)
+get user input
+prompt for rules, if none use default (START WITH DEFAULT NO MATTER WHAT)
+csv output default
+
+default rules?
+* does every file have an extension? 
+* no file is zero bytes?
+* no hidden files of any flavor
+* no whitespace in filename
+
+sample output
+Say we have this set of files---
+- word doc.doc (SHOULD FAIL)
+- thisisapdfnoext (SHOULD FAIL)
+- this is a pdf (SHOULD FAIL)
+- .git ignore no ext (0 bytes) (FAILS ALL THE TIME)
+- empty_FILE (0 bytes) (SHOULD FAIL)
+- totallynormal.pdf (SHOULD PASS)
+- Thumbs.db (SHOULD FAIL)
+- anothertotallynormal.pdf (SHOULD PASS)
+
+Run through every single test, even if fails once
+"Pass All" for passing every single rule, hooray
+
+fullpath,filename,pass_all,rule1,rule2...
+./anothertotallynormal.pdf, anothertotallynormal.pdf, TRUE, ...
+
+
+
+
+customization ideas!!
+(non-interactive version)
+optional
+* custom rules
+if none specified, use default
+mandatory
+* directory
+more tweaking?
+* specify what kind of output? (csv, txt)
+script output: 
+csv output (or other type of text?)
+pipe to bagit.py! (farrell)
+prompt / specify excluded extensions
+presence of specific file (perhaps even with specific name)
+custom headings for output of rules
