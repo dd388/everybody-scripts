@@ -8,7 +8,9 @@ Collaborative coding! Our goal: To gain experience writing collaboratively writi
 [April 2018 Notes](20180425Notes.txt)
 
 ## our code
-Soon! It will happen.
+[validator.py](validator.py): warning! may not contain much (working code)
+[sample data](testfiles): some test files we made up for this
+testing routines (soon!)
 
 ## who are we?
 * Let's list our names!
