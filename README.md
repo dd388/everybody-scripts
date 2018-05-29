@@ -10,7 +10,7 @@ Collaborative coding! Our goal: To gain experience writing collaboratively writi
 ## our code
 * [validator.py](validator.py): warning! may not contain much (working code)
 * [sample data](testfiles): some test files we made up for this
-testing routines (soon!)
+* testing routines (soon!)
 
 ## who are we?
 * Let's list our names!
