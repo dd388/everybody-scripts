@@ -17,3 +17,4 @@ Collaborative coding! Our goal: To gain experience writing collaboratively writi
 * farrell
 * Dianne Dietrich
 * Shira Peltzman
+* Bonnie Gordon
