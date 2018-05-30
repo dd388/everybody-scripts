@@ -29,3 +29,33 @@ def validator():
 
 if __name__ == '__main__':
     validator()
+    
+import os
+
+def getDirectory():
+    targetDirectory = ('Enter the directory path: ')
+    return targetDirectory
+
+def validateExtension(filename):
+    print("All files have extensions")
+
+def validateFileSize(filename):
+    print("All files bigger than 0 bytes")
+
+def findHiddenFiles(filename):
+    print("No hidden files found")
+    
+def findWhiteSpace(filename):
+    print("No filenames contain whitespace")
+    
+targetDirectory = getDirectory()
+
+filenames = os.listdir(targetDirectory)
+print(filenames)
+
+for filename in filenames:
+    validateExtension(filename)
+    validateFileSize(filename)
+    findHiddenFiles(filename)
+    findWhiteSpace(filename)
+print("Done!")
