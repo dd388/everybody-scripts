@@ -15,3 +15,4 @@ Collaborative coding! Our goal: To gain experience writing collaboratively writi
 ## who are we?
 * Let's list our names!
 * farrell
+* Dianne Dietrich
