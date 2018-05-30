@@ -18,3 +18,4 @@ Collaborative coding! Our goal: To gain experience writing collaboratively writi
 * Dianne Dietrich
 * Shira Peltzman
 * Bonnie Gordon
+* Maggie Hughes
