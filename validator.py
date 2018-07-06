@@ -15,17 +15,18 @@ import argparse # Definitely need a module like argparse if we want to supply ar
     # What input should this get to produce a report?
     # Does it produce the whole report or does it output line by line?
 
-parser.add_argument("-d","--directory", help="Path to input directory.")
-parser.add_argument("-o","--output", help="Path to and filename for output file. If unused, output will be to stdout")
-args = parser.parse_args()
-
 # Main function
 def validator():
-    pass
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-d","--directory", help="Path to input directory.")
+    parser.add_argument("-o","--output", help="Path to and filename for output file. If unused, output will be to stdout")
+    args = parser.parse_args()
+
     if args.directory:
         inputDir = args.directory
     if args.output:
         outputFile = args.output
+
     # Some things we might want to do here:
         # Gather and check user input
         # Set up output filename (see if we're overwriting anything?)
