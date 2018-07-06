@@ -2,6 +2,7 @@
 
 # Import modules we need
     # What should we import to get the job(s) done?
+import argparse # Definitely need a module like argparse if we want to supply arguments--f
 
 # Rule: Does every file have an extension?
 # Rule: Every file is at least zero bytes
@@ -14,9 +15,17 @@
     # What input should this get to produce a report?
     # Does it produce the whole report or does it output line by line?
 
+parser.add_argument("-d","--directory", help="Path to input directory.")
+parser.add_argument("-o","--output", help="Path to and filename for output file. If unused, output will be to stdout")
+args = parser.parse_args()
+
 # Main function
 def validator():
     pass
+    if args.directory:
+        inputDir = args.directory
+    if args.output:
+        outputFile = args.output
     # Some things we might want to do here:
         # Gather and check user input
         # Set up output filename (see if we're overwriting anything?)
