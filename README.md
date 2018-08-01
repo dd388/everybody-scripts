@@ -15,7 +15,7 @@ Collaborative coding! Our goal: To gain experience writing collaboratively writi
 
 ## who are we?
 * Let's list our names!
-* farrell
+* Farrell
 * Dianne Dietrich
 * Shira Peltzman
 * Bonnie Gordon
