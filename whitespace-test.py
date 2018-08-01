@@ -10,7 +10,7 @@ try:
     findsp = sourcefile.find(sp)
     print "Error: file name contains whitespace"
 
-# if whitespace is present, remove whitespace -- although, question for group: would we simply want the whitespace removed, or replaced with a dash or underscore?
+# if whitespace is present, changes whitespace to underscore -- although, question for group: would we simply want the whitespace removed, or replaced with a dash or underscore?
 import os
 # https://stackoverflow.com/questions/41176509/python-how-to-replace-whitespaces-by-underscore-in-the-name-of-all-files-folde
 def replace(parent):
