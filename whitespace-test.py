@@ -9,6 +9,12 @@ sourcefile = input('Enter the file name:')
 
 # determine whether filename includes whitespace 
 
+import re
+try:
+    sp = re.compile('\s')
+    findsp = sourcefile.find(sp)
+    print "Error: file name contains whitespace"
+
 # if whitespace is present, remove whitespace -- although, question for group: would we simply want the whitespace removed, or replaced with a dash or underscore?
 
 # if no whitespace is present, continue 
