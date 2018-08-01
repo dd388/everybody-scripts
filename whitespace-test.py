@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+    # question for group: what if the files we're working with are not encoded in UTF-8?
 # attempt at removing whitespace from all filenames within a given directory
 
 
@@ -24,7 +26,9 @@ def replace(parent):
             os.rename(os.path.join(path, folders[i]), os.path.join(path, new_name))
             folders[i] = new_name
 
+# run replace function -- 
+
+# output result to csv
+
 # if no whitespace is present, continue 
-
-
 
