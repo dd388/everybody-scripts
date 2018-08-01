@@ -5,6 +5,7 @@
 
 
 # determine whether filename includes whitespace 
+    # question for group: is this something we actually want the function to do? like, is it necessary?
 
 import re
 try:
