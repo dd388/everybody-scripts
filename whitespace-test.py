@@ -31,5 +31,5 @@ def replace(parent):
 
 # output result to csv
 
-# if no whitespace is present, continue 
+
 
