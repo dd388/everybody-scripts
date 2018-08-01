@@ -27,7 +27,7 @@ def replace(parent):
             os.rename(os.path.join(path, folders[i]), os.path.join(path, new_name))
             folders[i] = new_name
 
-# run replace function -- 
+# run replace function
 
 # output result to csv
 
