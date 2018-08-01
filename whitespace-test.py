@@ -12,7 +12,7 @@ try:
 
 # if whitespace is present, changes whitespace to underscore -- although, question for group: would we simply want the whitespace removed, or replaced with a dash or underscore?
 # source: https://stackoverflow.com/questions/41176509/python-how-to-replace-whitespaces-by-underscore-in-the-name-of-all-files-folde
-# this changes both parent foler and children file names
+# this changes both parent folder names and children file names
 import os
 
 def replace(parent):
