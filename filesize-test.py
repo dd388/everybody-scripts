@@ -1,6 +1,6 @@
 # check size of file
 # determine whether filesize is 0kb or >0kb
-# write filesize to csv? (question: do we want to do this for all files and sizes or only those with a filesize of 0?)
+# write filesize to csv (question: do we want to do this for all files and sizes or only those with a filesize of 0?)
 
 import sys
 import os
