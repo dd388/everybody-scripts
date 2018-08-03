@@ -13,7 +13,9 @@ try:
     findsp = sourcefile.find(sp)
     print "Error: file name contains whitespace"
 
-# if whitespace is present, changes whitespace to underscore -- although, question for group: would we simply want the whitespace removed, or replaced with a dash or underscore?
+# if whitespace is present, changes whitespace to underscore
+    # although, question for group: do we event want to change the filenames, or do we just want to generate a report that says they don't conform to our specs? 
+    # if we do change the filenames, would we simply want the whitespace removed, or replaced with a dash or underscore?
 # source: https://stackoverflow.com/questions/41176509/python-how-to-replace-whitespaces-by-underscore-in-the-name-of-all-files-folde
 # this changes both parent folder names and children file names
 import os
