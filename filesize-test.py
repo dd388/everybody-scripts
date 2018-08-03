@@ -1,8 +1,10 @@
+# check size of file
+# determine whether filesize is 0 or >0
+# write filesize to csv? (question: do we want to do this for all files and sizes or only those with a filesize of 0?)
+
 import sys
 import os
 
-
-## trying to define a function to validate file st_size
 filename = f in files
 def validateFileSize(filename):
   filesize = os.path.getsize("/filepath")
