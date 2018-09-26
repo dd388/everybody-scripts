@@ -6,3 +6,5 @@ Question: How do we comment on other people's code? We think perhaps using the
 feature to generate an issue based off a particular line of code would be most
 helpful and easy to keep track of. Will confirm at next meeting to ensure this
 makes sense to everyone.
+
+Dianne will add Marty to GitHub group and assign him unassigned issue
