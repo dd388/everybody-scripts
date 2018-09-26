@@ -7,6 +7,7 @@ Collaborative coding! Our goal: To gain experience writing collaboratively writi
 ## notes from our meetings
 * [April 2018 Notes](20180425Notes.txt)
 * [May 2018 Notes](20180530Notes.txt)
+* [September 2018 Notes](20180926Notes.txt)
 
 ## our code
 * [validator.py](validator.py): warning! may not contain much (working code)
