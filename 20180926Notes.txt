@@ -2,4 +2,7 @@ Attendees: farrel, Marty, Dianne
 
 Gave overview of process, surveyed the code we've got to date
 
-Question: How do we comment on other people's code? We think perhaps using the feature to generate an issue based off a particular line of code would be most helpful and easy to keep track of. Will confirm at next meeting to ensure this makes sense to everyone.
+Question: How do we comment on other people's code? We think perhaps using the
+feature to generate an issue based off a particular line of code would be most
+helpful and easy to keep track of. Will confirm at next meeting to ensure this
+makes sense to everyone.
