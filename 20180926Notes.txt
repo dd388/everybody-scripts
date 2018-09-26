@@ -8,3 +8,7 @@ helpful and easy to keep track of. Will confirm at next meeting to ensure this
 makes sense to everyone.
 
 Dianne will add Marty to GitHub group and assign him unassigned issue
+
+We all agreed that we should not be afraid to "break" this code. This is all
+about learning things, and figuring out how to make things work, which requires
+making things break.
