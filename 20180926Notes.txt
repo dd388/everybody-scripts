@@ -1,4 +1,4 @@
-Attendees: farrel, Marty, Dianne
+Attendees: farrell, Marty, Dianne
 
 Gave overview of process, surveyed the code we've got to date
 
