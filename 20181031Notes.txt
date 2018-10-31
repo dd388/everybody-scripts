@@ -1,0 +1,14 @@
+Updates since last group meeting(s)
+
+- Maggie/Shira in September worked on FileSizeTest and WhiteSpaceTest and made a few commits, but want feedback from the group.
+- Bonnie added comment asking for clarification around the issue assigned to her: "verify walktree function"
+- farrell took a look at 'verify getDirectory function' and added three lines of code that allow for walking and printing a source directory's contents (recursing as needed). I think the next step is, instead of printing in line 38, calling one of our other functions.
+
+
+-We discussed, for now and going forward, in order to facilitate asynchronous feedback, committer/puller should specify specific lines if we want the full group to review.
+
+farrell--lines 36-38 of validator.py
+maggie--filesizetest.py and whitespacetest.py
+bonnie--clarification on that issue
+
+NEW issues for maggie/shira and farrell marked for REVIEW by group
