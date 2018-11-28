@@ -4,13 +4,13 @@
 
 import sys, os
 
-filename = f in files
 def validateFileSize(filename):
   filesize = os.path.getsize("/filepath")
   if filesize == 0
     print("All files with 0 bytes")
     print (filename, "is", filesize, "bytes")
 
+filename = f in files
 For filename is os.listdir(directory):
     for filename
         validateFileSize
