@@ -24,7 +24,7 @@ def findHidden(f): #I'm assuming here that validator() is looping through files
 # Main function
 def validator():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-d","--directory", help="Path to input directory.")
+    parser.add_argument("-d","--directory", help="Path to input directory. If unused, input will be current directory.")
     parser.add_argument("-o","--output", help="Path to and filename for output file. If unused, output will be to stdout")
     args = parser.parse_args()
 
@@ -34,7 +34,7 @@ def validator():
         outputFile = args.output
 
     p = Path(inputDir) # declares inputDir as a Path object
-    for i in p.glob(**/*.*): # i in this statement should now be every file in p.
+    for i in p.glob('**/*.*'): # i in this statement should now be every file in p.
         print(i.name) # comment this line and make this loop do something else, like call one of our other functions
 
         # Some things we might want to do here:
