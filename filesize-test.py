@@ -2,8 +2,7 @@
 # determine whether filesize is 0 bytes 
 # write filesize to csv (question: do we want to do this for all files and sizes or only those with a filesize of 0?)
 
-import sys
-import os
+import sys, os
 
 filename = f in files
 def validateFileSize(filename):
