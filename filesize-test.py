@@ -10,7 +10,6 @@ def validateFileSize(filename):
     print("All files with 0 bytes")
     print (filename, "is", filesize, "bytes")
 
-filename = f in files
 For filename is os.listdir(directory):
     for filename
         validateFileSize
