@@ -1,0 +1,5 @@
+On call:
+
+farrell, Dianne, Bonnie, Marty
+
+We went through the issues and started commenting on them and/or closing them. A few of them were requests for code review, for functions that will hopefully eventually be integrated into `validator.py`
