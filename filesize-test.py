@@ -9,7 +9,7 @@ def validateFileSize(filename):
     if float(filesize) == 0:
         print("All files with 0 bytes")
     else:
-        print (filename, "is", filesize, "bytes")
+        print (filename, " is ", filesize, " bytes")
 
 for filename in os.listdir(directory):
     validateFileSize(filename)
