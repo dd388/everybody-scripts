@@ -11,6 +11,5 @@ def validateFileSize(filename):
     print (filename, "is", filesize, "bytes")
 
 for filename in os.listdir(directory):
-    for filename
         validateFileSize
 
