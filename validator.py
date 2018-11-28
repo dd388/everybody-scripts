@@ -30,8 +30,12 @@ def validator():
 
     if args.directory:
         inputDir = args.directory
+    else:
+        pass # TODO Make current directory
     if args.output:
         outputFile = args.output
+    else:
+        pass # TODO Make stdout
 
     p = Path(inputDir) # declares inputDir as a Path object
     for i in p.glob('**/*.*'): # i in this statement should now be every file in p.
