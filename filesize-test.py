@@ -5,7 +5,7 @@
 import sys, os
 
 def validateFileSize(filename):
-    filesize = os.path.getsize("/filepath")
+    filesize = os.path.getsize(filename)
     if float(filesize) == 0:
         print("All files with 0 bytes")
     else:
