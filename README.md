@@ -1,7 +1,7 @@
 # everybody-scripts
 hack days for everybody
 
-## what are we working on in 2018?
+## what are we working on in 2018-19?
 Collaborative coding! Our goal: To gain experience writing collaboratively writing a simple script that checks a set of files for compliance against a list of criteria. Many of us prepare collections for ingest in various delivery/preservation repositories, and eventually the script should be customizable so we can adapt it for the requirements of our own respective local repositories.
 
 ## notes from our meetings
@@ -10,6 +10,7 @@ Collaborative coding! Our goal: To gain experience writing collaboratively writi
 * [September 2018 Notes](20180926Notes.txt)
 * [October 2018 Notes](20181031Notes.txt)
 * [November 2018 Notes](20181128Notes.txt)
+* [January 2019 Notes](20190130Notes.txt)
 
 ## our code
 * [validator.py](validator.py): warning! may not contain much (working code)
@@ -23,3 +24,4 @@ Collaborative coding! Our goal: To gain experience writing collaboratively writi
 * Shira Peltzman
 * Bonnie Gordon
 * Maggie Hughes
+* Marty Gengenbach
