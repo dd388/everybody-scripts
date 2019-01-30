@@ -1,0 +1,9 @@
+Dorry joined us. Welcome Dorry! 
+
+We were supposed to begin troubleshooting today, but we still have some issues that need to be closed. (e.g. whitespace.py)
+
+We started testing filesize.py
+
+
+
+print(os.getcwd()) = get current working directory
