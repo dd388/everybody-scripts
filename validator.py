@@ -4,7 +4,6 @@
 import argparse # Definitely need a module like argparse if we want to supply arguments--f
 from pathlib import Path
 
-# Rule: if
 # Rule: Does every file have an extension?
 # Rule: Every file is at least zero bytes
 # Rule: There are no hidden files here
