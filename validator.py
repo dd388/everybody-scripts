@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 # Import modules we need
-    # What should we import to get the job(s) done?
 import argparse # Definitely need a module like argparse if we want to supply arguments--f
 from pathlib import Path
 
