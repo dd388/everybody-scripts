@@ -1,3 +1,4 @@
-PathandFile,HasExtension,GreaterThanZeroBytes,NotHiddenFile,NoWhitespace
-path/to/file2.txt,True,True,False,True
-path/to/file1.txt,True,False,True,False
+PathandFile,HasExtension,GreaterThanZeroBytes,NotHiddenFile,NoWhitespace,TestScore
+path/to/file2.txt,True,True,False,True,Fail
+path/to/file 1.txt,True,False,True,False,Fail
+path/to/file3.txt,True,True,True,True,Pass
