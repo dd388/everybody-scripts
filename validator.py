@@ -39,15 +39,5 @@ def validator():
     for i in p.glob('**/*.*'): # i in this statement should now be every file in p.
         print(i.name) # comment this line and make this loop do something else, like call one of our other functions
 
-        # Some things we might want to do here:
-        # Gather and check user input
-        # Set up output filename (see if we're overwriting anything?)
-        # Get a list of files we're working with
-        # Run some rules and get feedback
-        # Generate a report
-    # Other things to think about
-        # How should we handle unexpected input?
-        # How do we write/run tests on this?
-
 if __name__ == '__main__':
     validator()
