@@ -1,3 +1,3 @@
-PathandFile,Has Extension,More than 0 bytes,Hidden file?,Whitespace?
+PathandFile,HasExtension,GreaterThanZeroBytes,NotHiddenFile,NoWhitespace
 path/to/file2.txt,PASS,Fail,Pass,Pass
 path/to/file1.txt,Pass,Pass,Pass,Pass
