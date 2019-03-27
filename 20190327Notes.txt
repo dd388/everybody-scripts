@@ -1,0 +1,14 @@
+March 2019 notes
+
+Small group!: Bonnie and farrell in attendance. Sorry we missed everyone else!
+
+1) Three pull requests were submitted! But, in looking at the pulls from farrell and Bonnie, we realized that they were attempting the same thing. We looked at both of them, and determined that Bonnie's pull (29) went further than mine (30), so closed 30, and left 29 up for review
+2) That leaves 2 pulls to evaluate
+  a. https://github.com/dd388/everybody-scripts/pull/28
+  b. https://github.com/dd388/everybody-scripts/pull/29
+ and a number of things to test from Dianne:
+  c. https://github.com/dd388/everybody-scripts/issues/13
+3) Bonnie and I didn't want to start merging requests on our own, so thought it would be good to (before our next call)
+  a. look at the proposed code revisions in the pull requests above
+  b. test some of the things Dianne mentioned in her issue above
+it sounds like Marty and Shira have a function to write before next month's meeting. Anyone who *does not* have issues assigned to them, should try to evaluate the pull requests as well as test one or more of the items from Dianne's list.
