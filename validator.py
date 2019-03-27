@@ -7,10 +7,6 @@ from pathlib import Path
 # Rule: Does every file have an extension?
 # Rule: Every file is at least zero bytes
 # Rule: There are no hidden files here
-def findHidden(f): #I'm assuming here that validator() is looping through files
-    if f.startswith("."):
-        print("!!!!! HIDDEN FILE FOUND !!!!!, ", f)
-
 # Rule: No filename has any sort of whitespace
     # What input does this need?
     # What should the output be?
