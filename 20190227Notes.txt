@@ -1,0 +1,18 @@
+Everybody Scripts call 2019-02-27
+Attendees: Shira, Dianne, Dorothy, Bonnie, farrell
+
+- Continued looking at open issues
+- Big Question: what should our output file be
+  - discussed a general CSV format
+  - created a super basic mockup of that output
+  - discussed what how to phrase the headers so that we get the output we want (Has white space --> No White space, e.g.)
+  - decided that output should be granular (which functions returned true and which returned false) and summary (overall, did a file pass or fail the tests)
+ - returned, then, to our open issues and started revisiting with our output goal in mind.
+ - commented on a bunch of open issues
+ - then created some new issues
+ - and then assigned those issues
+  - some to individuals, and some to multiple people who were interested in pair scripting as a means of accountability and  bouncing ideas.
+ 
+ QOTD: 
+ "I'm going to say something fun."
+  --Dianne

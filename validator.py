@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 
 # Import modules we need
-    # What should we import to get the job(s) done?
 import argparse # Definitely need a module like argparse if we want to supply arguments--f
 from pathlib import Path
 
-# Rule: if
 # Rule: Does every file have an extension?
 # Rule: Every file is at least zero bytes
 # Rule: There are no hidden files here
@@ -43,15 +41,6 @@ def validator():
     for i in p.glob('**/*.*'): # i in this statement should now be every file in p.
         print(i.name) # comment this line and make this loop do something else, like call one of our other functions
         findHidden(i) # for each file (i), return True if it's a hidden file, return false if it's not a hidden file
-        # Some things we might want to do here:
-        # Gather and check user input
-        # Set up output filename (see if we're overwriting anything?)
-        # Get a list of files we're working with
-        # Run some rules and get feedback
-        # Generate a report
-    # Other things to think about
-        # How should we handle unexpected input?
-        # How do we write/run tests on this?
 
 if __name__ == '__main__':
     validator()
