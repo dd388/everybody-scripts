@@ -11,7 +11,9 @@ from pathlib import Path
 # Rule: There are no hidden files here
 def findHidden(f): #I'm assuming here that validator() is looping through files
     if f.startswith("."):
-        print("!!!!! HIDDEN FILE FOUND !!!!!, ", f)
+        return True
+    else:
+        return False
 
 # Rule: No filename has any sort of whitespace
     # What input does this need?
@@ -40,7 +42,7 @@ def validator():
     p = Path(inputDir) # declares inputDir as a Path object
     for i in p.glob('**/*.*'): # i in this statement should now be every file in p.
         print(i.name) # comment this line and make this loop do something else, like call one of our other functions
-
+        findHidden(i) # for each file (i), return True if it's a hidden file, return false if it's not a hidden file
         # Some things we might want to do here:
         # Gather and check user input
         # Set up output filename (see if we're overwriting anything?)
