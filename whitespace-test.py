@@ -15,6 +15,9 @@ with os.scandir('my_directory/') as entries:
            print(file, 'True')
 
 # Final step would be to output result to CSV - How do we do this?
+# This only looks for whitespace in the file. Do we need to look for whitespace in the path?
+# What about single/multiple whitespaces?
+# how do we test this? Also - as written, you need to input the directory you're looking at. how does this function integrate into the larger script?
 
 
 
